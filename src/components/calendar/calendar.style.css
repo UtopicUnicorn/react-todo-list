@@ -1,0 +1,78 @@
+.calendar_container{
+    left: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 500px;
+    height: 500px ;
+    background-color: #5A7CF8;
+    border-radius: 40px;
+    border: 4px solid white;
+}
+
+
+.todos-list *{
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.day_names_block{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.day_names_block div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.calendar_block{
+    /*max-height: 600px;*/
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.day_cell, .empty_cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    background-color: #D9D9D9;
+    border: none;
+    transition: 500ms;
+}
+
+.empty_cell{
+    background-color: #696969;
+}
+
+.day_cell:hover{
+    transition: 500ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.today{
+    background-color: rgba(123, 4, 213, 0.63);
+    color: white;
+}
+.calendar_block:last-child{
+    padding-bottom: 50px;
+}
+
+.first-day{
+    grid-column-start: 3;
+}
+
