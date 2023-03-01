@@ -1,0 +1,67 @@
+.header_container{
+    padding-top: 10px;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    margin-left: 10%;
+    align-items: center;
+    left: 10%;
+    font-family: inherit;
+    /*top: 0;*/
+}
+
+.select_month_button{
+    line-height: 1;
+    background-color: white;
+    border: none;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 100px;
+    transition: 500ms;
+    justify-items: center;
+}
+
+.list_icon{
+    font-size: 18px;
+}
+
+.month_switch_block{
+    display: flex;
+    align-items: center;
+
+}
+
+.select_month_button:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.select_month_name{
+    text-align: center;
+    font-size: 18px;
+    width: 100px;
+    color: white;
+}
+
+.today_button{
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    border-radius: 30px;
+    font-size: 18px;
+
+    background-color: #4263D8;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    transition: 500ms;
+}
+
+.today_button:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+    cursor: pointer;
+}

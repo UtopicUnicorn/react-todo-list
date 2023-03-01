@@ -1,0 +1,44 @@
+.todo_form{
+    width: 400px;
+}
+
+.todo_form:last-child{
+    margin-bottom: 20px;
+}
+
+.todo_input{
+    width: 200px;
+    height: 30px
+}
+
+.todo_textarea{
+    width: 200px;
+    height: 100px;
+    resize: none;
+}
+
+.todo_selector{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.tmp_spacer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.todo_submit{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    border: white;
+    text-transform: uppercase;
+}
+
+.todo_submit:hover{
+    transition: 500ms;
+    transform: scale(1.2);
+    cursor: pointer;
+}
